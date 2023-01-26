@@ -4,7 +4,7 @@
 #   Author: Hyy2001X                                      #
 ###########################################################
 
-name: ASUS RT-ACRH17
+name: CR660X
 
 ### 以下内容请保持不变 ( 请修改下方的 [环境变量设置] )
 on:
@@ -35,9 +35,9 @@ on:
 ### 环境变量设置
 env:
 # 编译时调用的 [.config] 文件名称
-  CONFIG_FILE: asus_rt-acrh17
+  CONFIG_FILE: CR660X
 # 源码仓库:分支
-  DEFAULT_SOURCE: coolsnowwolf/lede:master
+  DEFAULT_SOURCE: 52014app/lede:master
 # 上传固件到 Github Releases
   UPLOAD_RELEASES: true
 # 上传固件到 Github Artifacts
